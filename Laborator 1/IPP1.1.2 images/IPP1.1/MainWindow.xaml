@@ -13,6 +13,6 @@
         <Button Content="image 8" Height="23" HorizontalAlignment="Left" Margin="201,219,0,0" Name="button8" VerticalAlignment="Top" Width="75" Click="button8_Click" />
         <Button Content="image 9" Height="23" HorizontalAlignment="Left" Margin="296,219,0,0" Name="button9" VerticalAlignment="Top" Width="75" Click="button9_Click" />
         <Button Content="image 10" Height="23" HorizontalAlignment="Left" Margin="390,219,0,0" Name="button10" VerticalAlignment="Top" Width="75" Click="button10_Click" />
-        <TextBox Height="152" HorizontalAlignment="Left" Margin="12,12,0,0" Name="textBox1" VerticalAlignment="Top" Width="453" />
+        <TextBox Height="152" HorizontalAlignment="Left" Margin="12,12,0,0" Name="textBox1" VerticalAlignment="Top" Width="469" TextChanged="textBox1_TextChanged" />
     </Grid>
 </Window>

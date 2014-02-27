@@ -32,62 +32,62 @@ namespace IPP1._1
         private Proxy pro = new Proxy();
 
         private void button1_Click(object sender, RoutedEventArgs e)
-        {  
-            pro.urls.Add("http://www.hdwallpapers.in/walls/maldives_diggiri_island-wide.jpg");
+        {
+            pro.urls.Add("http://hd.wallpaperswide.com/thumbs/warm_water_current-t2.jpg");
             display("1");
         }
 
         private void button2_Click(object sender, RoutedEventArgs e)
         {
-            pro.urls.Add("http://www.hdwallpapers.in/walls/the_twelve_apostles-wide.jpg");
+            pro.urls.Add("http://hd.wallpaperswide.com/thumbs/louisiade_archipelago-t2.jpg");
             display("2");
         }
 
         private void button3_Click(object sender, RoutedEventArgs e)
         {
-            pro.urls.Add("http://www.hdwallpapers.in/walls/seattle-wide.jpg");
+            pro.urls.Add("http://hd.wallpaperswide.com/thumbs/circle_of_clouds-t2.jpg");
             display("3");
         }
 
         private void button4_Click(object sender, RoutedEventArgs e)
         {
-            pro.urls.Add("http://www.hdwallpapers.in/walls/chicago_nights-wide.jpg");
+            pro.urls.Add("http://hd.wallpaperswide.com/thumbs/river_gorge_satelite_view-t2.jpg");
             display("4");
         }
 
         private void button5_Click(object sender, RoutedEventArgs e)
         {
-            pro.urls.Add("http://www.hdwallpapers.in/walls/pennybacker_bridge_austin-wide.jpg");
+            pro.urls.Add("http://hd.wallpaperswide.com/thumbs/galaxy_4-t2.jpg");
             display("5");
         }
 
         private void button6_Click(object sender, RoutedEventArgs e)
         {
-            pro.urls.Add("http://www.hdwallpapers.in/walls/london_tower_bridge-wide.jpg");
+            pro.urls.Add("http://hd.wallpaperswide.com/thumbs/earth_8-t2.jpg");
             display("6");
         }
 
         private void button7_Click(object sender, RoutedEventArgs e)
         {
-            pro.urls.Add("http://www.hdwallpapers.in/walls/william_r_bennett_bridge-wide.jpg");
+            pro.urls.Add("http://hd.wallpaperswide.com/thumbs/star_dust_2-t2.jpg");
             display("7");
         }
 
         private void button8_Click(object sender, RoutedEventArgs e)
         {
-            pro.urls.Add("http://www.hdwallpapers.in/walls/limassol_rush_hour-wide.jpg");
+            pro.urls.Add("http://hd.wallpaperswide.com/thumbs/blue_hole_nebula-t2.jpg");
             display("8");
         }
 
         private void button9_Click(object sender, RoutedEventArgs e)
         {
-            pro.urls.Add("http://www.hdwallpapers.in/walls/hong_kong_nights-wide.jpg");
+            pro.urls.Add("http://hd.wallpaperswide.com/thumbs/apple_10-t2.jpg");
             display("9");
         }
 
         private void button10_Click(object sender, RoutedEventArgs e)
         {
-            pro.urls.Add("http://www.hdwallpapers.in/walls/marina_bay_sands_singapore-wide.jpg");
+            pro.urls.Add("http://hd.wallpaperswide.com/thumbs/crab_nebula-t2.jpg");
             display("10");
         }
 
@@ -125,6 +125,11 @@ namespace IPP1._1
                         item.IsEnabled = !item.IsEnabled;
                 }
             }
+        }
+
+        private void textBox1_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
         }
         //
         //private void AddTextChangedHandler(System.Windows.Forms.Control parent, bool enable)
